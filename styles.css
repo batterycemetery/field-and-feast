@@ -64,6 +64,9 @@ table {
     font-family: 'Playfair Display', serif;
 }
 
+h1 {
+    color: var(--soft-white)
+}
 header, footer {
     background-color: var(--midnight-blue);  
 }
@@ -76,7 +79,12 @@ nav {
 nav a {
     color: var(--midnight-blue);
     text-decoration: none;
-    
+
+}
+
+#offerings div {
+    background-color: var(--olive-green);
+    color: var(--linen);
 }
 
 
