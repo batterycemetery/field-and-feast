@@ -65,7 +65,7 @@ table {
 }
 
 h1 {
-    color: var(--soft-white)
+    color: var(--soft-white);
 }
 header, footer {
     background-color: var(--midnight-blue);  
