@@ -75,7 +75,9 @@ header, footer {
 
 }
 
-
+main {
+    margin: 18px;
+}
 header p {
     font-style: italic;
     padding: 15px;
@@ -252,5 +254,6 @@ footer ul {
         display: grid; 
         grid-template-columns: auto auto auto auto auto;
     }
+
 
 }
