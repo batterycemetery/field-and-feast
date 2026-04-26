@@ -222,17 +222,35 @@ footer ul {
 
 /* MEDIA QUERY (medium) */
 @media screen and (min-width: 600px) {
+    #offerings {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-row: 1/-1;
+    }
+
+    #gallery div {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 
 }
 
 
 /* MEDIA QUERY (large) */
 @media screen and (min-width: 900px) {
+    #gallery div {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
     
 }
 
 /* MEDIA QUERY (xl) */
 
 @media screen and (min-width: 1200px) {
+    #gallery div {
+        display: grid; 
+        grid-template-columns: auto auto auto auto auto;
+    }
 
 }
