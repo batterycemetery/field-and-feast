@@ -157,6 +157,31 @@ section * {
     border-bottom: solid 2px var(--champagne-gold);
 }
 
+#gallery div {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#gallery figure {
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+#gallery figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+#gallery img {
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+
+}
+
 
 
 
