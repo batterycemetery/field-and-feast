@@ -155,6 +155,7 @@ section * {
 
 #gallery {
     border-bottom: solid 2px var(--champagne-gold);
+    padding-bottom: 10px;
 }
 
 #gallery div {
@@ -183,7 +184,27 @@ section * {
 
 }
 
+#gallery a {
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    text-align: center;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+
+footer {
+
+}
+
+footer a {
+    color: var(--champagne-gold);
+    text-decoration: none;
+    font-weight: bold;
+}
 
 
 
